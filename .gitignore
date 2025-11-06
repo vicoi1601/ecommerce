@@ -1,0 +1,30 @@
+# === PHP & XAMPP Files ===
+db_connect.php
+config.php
+.env
+
+# === System files ===
+.idea/
+.vscode/
+*.log
+*.env
+*.bak
+*.tmp
+
+# === Composer / PHP dependencies ===
+vendor/
+composer.lock
+
+# === OS generated files ===
+.DS_Store
+Thumbs.db
+
+# === Cache & sessions ===
+cache/
+session/
+
+# === Upload folders (optional) ===
+uploads/
+*.zip
+*.tar
+*.gz
